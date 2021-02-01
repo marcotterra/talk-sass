@@ -1,0 +1,24 @@
+.card {
+  padding: 16px;
+  border: 2px solid blac;
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+
+  &--large {
+    width: 70vh;
+  }
+
+  &__title {
+    border-bottom: 3px solid black;
+  }
+
+
+  &__body {
+    min-height: 80px;
+  }
+
+  .subtitle {
+    color: blue
+  }
+}
